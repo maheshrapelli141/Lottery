@@ -1,0 +1,122 @@
+body{
+    background-color: black;
+    font-family: Times new Roman;
+}
+.container{
+    background-color: #eeeeee;
+    /*border: 1px solid black;*/
+    min-height: 650px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px #000000;
+}
+.container-fluid{
+    background-color: #eeeeee;
+    /*border: 1px solid black;*/
+    min-height: 650px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px #000000;
+}
+
+.brand {
+    padding: 10px;
+    height: 150px;
+    border-bottom: 1px solid black;
+}
+.row-custom{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+.login-form{
+    text-align: center;
+    border: 1px solid black;
+    padding: 15px 20px;
+}
+.login-form h4{
+    text-shadow: 5px 5px 5px #f4c141;
+}
+.main-section{
+    margin-top: 20px;
+}
+.btn-custom {
+    background-color: #ffa700;
+    color: white;
+    border: 1px solid #eeeeee;
+}
+.btn-custom-blue {
+    background-color: blue;
+    color: white;
+    border: 1px solid #eeeeee;
+}
+.login-form > form:nth-child(4) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(5) > td:nth-child(1){
+    text-align: right;
+}
+.login-form > form:nth-child(4) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(5) > td:nth-child(2){
+    text-align: left;
+}
+.timer {
+    text-align: right;
+    padding-right: 10px;
+    color: #710b30;
+    font-weight: bold;
+}
+.schedule {
+    padding: 10px;
+    border: 1px solid black;
+}
+.box-container{
+    padding: 20px;
+    text-align: center;
+    text-shadow: 1px 0px 0px #000000;
+}
+.box {
+    color: #ffffff;
+    height: 80px;
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+    text-shadow: 1px 1px 1px #000000;
+}
+.box-navratna {
+    background-color: red;
+}
+.navratna {
+    color: red;
+}
+.box-mahalaxmi {
+    background-color: blue;
+}
+.mahalaxmi{
+    color: blue;
+}
+.box-megalotto {
+    background-color: brown;
+}
+.megalotto {
+    color: brown;
+}
+.box-starlotto {
+    background-color:#ffa700;
+}
+.starlotto {
+    color: #ffa700;
+}
+.triangle {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 0px;
+    width: 0px;
+    border-top: 35px solid transparent;
+    border-left: 15px solid transparent;
+    border-right: 15px solid #eeeeee;
+    border-bottom: 35px solid #eeeeee;
+}
+.footer {
+                height: 60px;
+                width: 100%;
+                color: white;
+                /*background-color: #071326;*/
+                text-align: center;
+       font-size: 22px;
+            }
